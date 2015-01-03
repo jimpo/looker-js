@@ -1,0 +1,18 @@
+{
+    "name": "looker",
+    "version": "0.0.1",
+    "description": "Looker JavaScript API client",
+    "author": "Jim Posen <jim.posen@gmail.com>",
+    "main": "looker.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jimpo/looker-js"
+    },
+    "bugs": {
+        "url": "https://github.com/jimpo/looker-js/issues"
+    },
+    "dependencies": {
+        "promise": "~6.0.1"
+    },
+    "license": "MIT"
+}
