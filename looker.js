@@ -59,7 +59,7 @@
                             body += chunk.toString();
                         })
                         .on('end', function() {
-                            resolve(JSON.parse(body), response.status);
+                            resolve(JSON.parse(body), response.statusCode);
                         });
                 })
                 .on('error', function(error) {
